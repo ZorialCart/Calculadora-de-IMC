@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp_MGCC.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Image
+                Source="https://vignette1.wikia.nocookie.net/the-phijkchu-cult/images/0/0b/Snorlax.png/revision/latest?cb=20141029031048"
+                HeightRequest="185"
+                Aspect="AspectFit"
+                SemanticProperties.Description="dot net bot in a race car number eight" />
+
+            <Label
+                Text="Calcula el Indice de Masa Corporal" FontFamily="Bold"
+                Style="{StaticResource Headline}"
+                SemanticProperties.HeadingLevel="Level1" />
+
+            <Label
+                x:Name="Altura"
+                Text="Ingrese la altura:"
+                Style="{StaticResource SubHeadline}"
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Welcome to dot net Multi platform App U I" />
+
+            <Entry 
+                x:Name="EntryAlt"
+                Placeholder="Escriba la altura"
+                Keyboard="Numeric"
+                FontSize="20"
+                />
+
+            <Label
+                x:Name="Peso"
+                Text="Ingrese el peso:"
+                Style="{StaticResource SubHeadline}"
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Welcome to dot net Multi platform App U I" />
+
+            <Entry 
+                x:Name="EntryPes"
+                Placeholder="Escriba el peso"
+                Keyboard="Numeric"
+                FontSize="20"
+                />
+            <Label
+                Text="El Indice de Masa Corporal es:"
+                Style="{StaticResource SubHeadline}"
+
+                />
+            <Label
+                x:Name="Result" 
+                FontSize="24"
+                FontFamily="bold" 
+                HorizontalOptions="Center" 
+                />
+            <Label 
+                x:Name="RIMC" 
+                FontSize="24"
+                FontFamily="bold" 
+                HorizontalOptions="Center" />
+
+            <Button
+                x:Name="CounterBtn"
+                Text="Calcular" 
+                SemanticProperties.Hint="Resultados"
+                Clicked="OnCounterClicked"
+                HorizontalOptions="Fill"
+            />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

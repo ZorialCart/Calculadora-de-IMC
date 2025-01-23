@@ -1,0 +1,1 @@
+C:\Users\Usuario\Desktop\Cursos\C#\MauiApp_MGCC\MauiApp_MGCC.csproj;x64
