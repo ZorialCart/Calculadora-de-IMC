@@ -45,30 +45,26 @@
                 Keyboard="Numeric"
                 FontSize="20"
                 />
-            <Label
-                Text="El Indice de Masa Corporal es:"
-                Style="{StaticResource SubHeadline}"
-
-                />
-            <Label
-                x:Name="Result" 
-                FontSize="24"
-                FontFamily="bold" 
-                HorizontalOptions="Center" 
-                />
-            <Label 
-                x:Name="RIMC" 
-                FontSize="24"
-                FontFamily="bold" 
-                HorizontalOptions="Center" />
-
-            <Button
+            <HorizontalStackLayout Spacing="60" HorizontalOptions="Center">
+                <Button
                 x:Name="CounterBtn"
                 Text="Calcular" 
                 SemanticProperties.Hint="Resultados"
                 Clicked="OnCounterClicked"
-                HorizontalOptions="Fill"
+                HorizontalOptions="StartAndExpand"
             />
+                <Button
+                x:Name="Cleanbtn"
+                Text="Limpiar"
+                SemanticProperties.Hint="Resultados"
+                Clicked="Cleanbtn_Clicked"
+                HorizontalOptions="StartAndExpand"
+                BackgroundColor="Gray"
+                
+                />
+
+            </HorizontalStackLayout>
+
 
         </VerticalStackLayout>
     </ScrollView>

@@ -1053,3 +1053,4 @@ C:\Users\Usuario\Desktop\Cursos\C#\MauiApp_MGCC\obj\Debug\net8.0-android\android
 C:\Users\Usuario\Desktop\Cursos\C#\MauiApp_MGCC\obj\Debug\net8.0-android\android\assets\x86\System.Private.CoreLib.dll
 C:\Users\Usuario\Desktop\Cursos\C#\MauiApp_MGCC\obj\Debug\net8.0-android\android\assets\x86_64\System.Private.CoreLib.dll
 C:\Users\Usuario\Desktop\Cursos\C#\MauiApp_MGCC\obj\Debug\net8.0-android\android\assets\System.Private.CoreLib.dll
+C:\Users\Usuario\Desktop\Cursos\C#\MauiApp_MGCC\obj\Debug\net8.0-android\MauiApp_MGCC.sourcelink.json
